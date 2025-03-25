@@ -1,12 +1,12 @@
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "",
     spareImg: "",
   },
   {
@@ -21,7 +21,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
+    title: "MY TECH STACK",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -42,7 +42,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a personalized stock screener.",
+    title: "Currently Building a Multiplayer Battleship Game.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -52,7 +52,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Contact Me Anywhere at Anytime!",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -325,7 +325,7 @@ export const workExperience = [
     pos: "Fullstack Developer",
     duration: "2024 - Present",
     title:
-      "Dedicated time to expanding expertise in modern web development, focusing on Node.js/Express, Next.js, GraphQL, SQL/NoSQL databases and Hydrogen. Built personal projects to apply new skills, improve problem-solving, and stay up to date with industry trends.",
+      "Focused on expanding my knowledge in web development, including Express, Next.js, GraphQL, SQL/NoSQL, and TypeScript. Built personal projects to refine skills, solve problems, and stay current with industry trends.",
     icon: "/e1.png",
     animation: "victory",
   },
@@ -335,9 +335,9 @@ export const workExperience = [
     pos: "Fullstack Developer",
     duration: "2021 - Present",
     title:
-      "Built and managed multiple SEO focused blogs and portfolio sites for artists. Optimizing content for visibility and engagement, handling both frontend and backend to ensure smooth performance, aesthetic appeal, and seamless user experience.",
+      "Built and managed SEO-driven blogs and artist portfolios, optimizing content and handling full-stack development for performance, aesthetics, and UX.",
     icon: "/lonis.png",
-    animation: "clapping",
+    animation: "waving",
   },
   {
     id: 3,
@@ -345,7 +345,7 @@ export const workExperience = [
     pos: "Lead Frontend Developer",
     duration: "2019 - 2021",
     title:
-      "As a founding member, I built high-performance websites for global businesses, either selling them or using them as lead-generation platforms. I focused on seamless UI/UX, modern frontend technologies, and conversion-driven design to help clients grow their online presence.",
+      "As a founding member, I built high-performance websites for global businesses, optimizing UI/UX, modern frontend tech, and conversion-focused design to drive growth.",
     icon: "/bpmh.png",
     animation: "salute",
   },
