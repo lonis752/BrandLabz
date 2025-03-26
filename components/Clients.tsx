@@ -1,6 +1,6 @@
 import React from "react";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
-import { testimonials, companies } from "@/data";
+import { testimonials } from "@/data";
 
 const Clients = () => {
   return (

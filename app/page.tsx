@@ -13,7 +13,6 @@ import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 /* import Approach from '@/components/Approach';
 import Services from '@/components/Services'; */
-import FallingDiv from '@/components/FallingDiv';
 
 export default function Home() {
   return (
