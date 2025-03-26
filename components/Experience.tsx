@@ -7,7 +7,6 @@ import Image from 'next/image';
 
 const Experience = () => {
   const [animationName, setAnimationName] = useState('idle');
-
   return (
     <section id='experience' className='sm:px-10 my-20'>
       <div className='w-full text-white-200'>

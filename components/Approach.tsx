@@ -5,7 +5,10 @@ import { CanvasRevealEffect } from './ui/CanvasReveal';
 
 const Approach = () => {
   return (
-    <section className='absolute md:flex md:top-6 lg:top-0 lg:flex-col lg:items-start md:items-center' id='approach'>
+    <section
+      className='absolute md:flex md:top-6 lg:top-0 lg:flex-col lg:items-start md:items-center'
+      id='approach'
+    >
       <h3 className='font-bold text-xl md:text-2xl my-2 px-5'>
         About Me & <span className='text-purple'>My Approach</span>
       </h3>
@@ -13,9 +16,7 @@ const Approach = () => {
         <Card
           title='Planning & Strategy'
           icon={<AceternityIcon order='Phase 1' />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des='I will outline the key objectives, target audience, and essential features for the app. This includes defining the structures, navigation, and content requirements to ensure a seamless user experience and alignment with project goals.'
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -25,9 +26,7 @@ const Approach = () => {
         <Card
           title='Creative Solutions'
           icon={<AceternityIcon order='Phase 2' />}
-          des='Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way.'
+          des='Once the plan is set, I immerse myself in the coding process, transitioning from initial concepts to refined solutions. I stay focused and track progress at each stage, ensuring the project evolves from early sketches to a fully functional outcome.'
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -42,9 +41,7 @@ const Approach = () => {
         <Card
           title='Development & Launch'
           icon={<AceternityIcon order='Phase 3' />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des='With the development phase underway, I focus on building and testing every aspect to ensure a smooth user experience. Once everything is fine-tuned, I prepare for launch, ensuring the project is optimized and ready to go live seamlessly.'
         >
           <CanvasRevealEffect
             animationSpeed={3}

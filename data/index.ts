@@ -65,7 +65,7 @@ export const gridItems = [
 export const myProjects = [
   {
     title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    desc: "CacaoTalk is a cutting-edge real-time chat application that redefines online communication. Inspired by KakaoTalk, it offers seamless messaging, secure login authentication, and effortless photo sharing. With a sleek and intuitive interface, CacaoTalk ensures fast, reliable, and engaging conversations—anytime, anywhere.",
     subdesc:
       "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
     href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
@@ -80,8 +80,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/re.svg",
+        name: "Next.js",
+        path: "/next.svg",
       },
       {
         id: 2,
@@ -101,13 +101,13 @@ export const myProjects = [
     ],
   },
   {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+    title: "CacaoTalk - Real-Time Chat app",
+    desc: "CacaoTalk is a real-time chat app inspired by KakaoTalk, designed for fast and secure communication. With seamless login authentication, instant messaging, and effortless photo sharing, it keeps you connected anytime, anywhere.",
     subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+      "Stay connected with CacaoTalk’s seamless messaging, secure authentication, and easy media sharing. Enjoy real-time chats with a smooth and intuitive experience built for effortless communication.",
+    href: "https://chat-app-kq6u.onrender.com",
     texture: "/projectVideos/project2.mp4",
-    logo: "/assets/project-logo2.png",
+    logo: "/assets/ctLogo.png",
     logoStyle: {
       backgroundColor: "#13202F",
       border: "0.2px solid #17293E",
@@ -138,17 +138,17 @@ export const myProjects = [
     ],
   },
   {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
+    title: "WriteMe - Markdown Generator for projects",
+    desc: "WriteMe is a smart tool that automates README.md creation for GitHub repositories and projects. Just enter your repo link, and it generates a structured Markdown framework instantly for you to modify and push. With secure login and a one-use-per-day limit, WriteMe makes documentation effortless.",
     subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+      "Simplify your project documentation with WriteMe. Log in, add your GitHub repo link, and get a clean, professional README template—fast and hassle-free.",
+    href: "https://writeme-2r5e.onrender.com/",
     texture: "/projectVideos/project3.mp4",
-    logo: "/assets/project-logo3.png",
+    logo: "/assets/wmLogo.png",
     logoStyle: {
       backgroundColor: "#60f5a1",
       background:
-        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+        "linear-gradient(180deg,#facc15,#eab308), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
       border: "0.2px solid rgba(208, 213, 221, 1)",
       boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
     },
@@ -156,8 +156,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/re.svg",
+        name: "Next.js",
+        path: "/next.svg",
       },
       {
         id: 2,
@@ -177,13 +177,13 @@ export const myProjects = [
     ],
   },
   {
-    title: "Horizon - Online Banking Platform",
-    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
+    title: "Spendable - Helps to rethink your next purchase",
+    desc: "Spendable is a simple yet powerful budgeting tool that helps you make smarter spending decisions. Enter your hourly wage and the price of a product, and Spendable instantly calculates how many hours you need to work to afford it.",
     subdesc:
-      "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-    href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
+      "Know the true cost of your purchases in work hours. With Spendable, just input your hourly wage and the item’s price to see how much time it takes to earn it—helping you spend wisely.",
+    href: "https://spendable-roan.vercel.app/",
     texture: "/projectVideos/project4.mp4",
-    logo: "/assets/project-logo4.png",
+    logo: "/assets/sLogo.png",
     logoStyle: {
       backgroundColor: "#0E1F38",
       border: "0.2px solid #0E2D58",
@@ -193,8 +193,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/re.svg",
+        name: "Next.js",
+        path: "/next.svg",
       },
       {
         id: 2,
