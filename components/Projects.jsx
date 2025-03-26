@@ -7,6 +7,7 @@ import { Center, OrbitControls } from '@react-three/drei';
 import { myProjects } from '@/data/index';
 import DemoComputer from './DemoComputer';
 import CanvasLoader from './ui/CanvasLoader';
+import { motion } from 'framer-motion';
 
 import { FaArrowRight } from 'react-icons/fa';
 import { FaArrowLeft } from 'react-icons/fa';

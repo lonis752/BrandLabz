@@ -11,8 +11,6 @@ import Model from '../Model';
 import Approach from '../Approach';
 import Image from 'next/image';
 
-/* const Lottie = dynamic(() => import("react-lottie"), { ssr: false }); */
-
 export const BentoGrid = ({
   className,
   children,
@@ -176,15 +174,15 @@ export const BentoGridItem = ({
                   <div className='w-10 h-10 rounded-full flex justify-center items-center bg-black-300 border border-black-200'>
                     <a href='https://github.com/lonis752' target='_blank'>
                       <Image
-            width={40}
-            height={40} src='/git.svg' alt='Github Logo' className='' />
+            width={30}
+            height={30} src='/git.svg' alt='Github Logo' className='' />
                     </a>
                   </div>
                   <div className='w-10 h-10 rounded-full flex justify-center items-center bg-black-300 border border-black-200'>
                     <a href='https://x.com/lonis_k' target='_blank'>
                       <Image
-            width={40}
-            height={40} src='/x.png' alt='X Logo' className='' />
+            width={50}
+            height={50} src='/x.png' alt='X Logo' className='' />
                     </a>
                   </div>
                   <div className='w-10 h-10 rounded-full flex justify-center items-center bg-black-300 border border-black-200'>
@@ -193,8 +191,8 @@ export const BentoGridItem = ({
                       target='_blank'
                     >
                       <Image
-            width={40}
-            height={40} src='/link.svg' alt='LinkedIn Logo' className='' />
+            width={25}
+            height={25} src='/link.svg' alt='LinkedIn Logo' className='' />
                     </a>
                   </div>
                 </div>

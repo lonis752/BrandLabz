@@ -3,6 +3,7 @@ import MagicButton from './ui/MagicButton';
 import { Spotlight } from './ui/Spotlight';
 import { MdDownload } from 'react-icons/md';
 import { RiScrollToBottomLine } from 'react-icons/ri';
+import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
@@ -30,44 +31,81 @@ const Hero = () => {
         />
       </div>
       {/* Content */}
-      <div className='flex justify-center relative sm:my-0 sm:mt-12 my-12 z-10'>
+      <motion.div
+        className='flex justify-center relative sm:my-0 sm:mt-12 my-12 z-10'
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.5 }}
+      >
         <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-          <p className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-90'>
+          <motion.p
+            className='uppercase tracking-widest text-xs sm:text-sm text-center text-blue-100 max-w-90'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1.5 }}
+            transition={{ duration: 1, delay: 0.4 }}
+          >
             Driven By Creativity | Problem-Solver | Performance-Focused
-          </p>
+          </motion.p>
 
-          <h1 className='text-center font-extrabold text-[40px] md:text-5xl lg:text-6xl py-10'>
+          <motion.h1
+            className='text-center font-extrabold text-[40px] md:text-5xl lg:text-6xl py-20'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1.5 }}
+            transition={{ duration: 1, delay: 0.6 }}
+          >
             Building Creative Solutions for{' '}
             <span className='text-purple'>Beautiful Experiences.</span>
-          </h1>
-          <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
+          </motion.h1>
+
+          <motion.p
+            className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1.5 }}
+            transition={{ duration: 1, delay: 0.8 }}
+          >
             Hi! I&apos;m Lonis, a Fullstack Developer based in Vancouver,
             Canada.
-          </p>
+          </motion.p>
+
           <div className='flex flex-col sm:flex-row gap-10 sm:mt-5 pt-5'>
-            <a href='#projects'>
+            <motion.a
+              href='#projects'
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 1, delay: 0.8 }}
+            >
               <MagicButton
                 title='View My Work'
                 icon={<FaLocationArrow />}
                 position='right'
               />
-            </a>
-            <a
+            </motion.a>
+
+            <motion.a
               href='/Lonis_Kwacke_Resume_2025.pdf'
               download='Lonis_Kwacke_Resume_2025.pdf'
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 1, delay: 1 }}
             >
               <MagicButton
                 title='Download Resume'
                 icon={<MdDownload size={20} />}
                 position='right'
               />
-            </a>
+            </motion.a>
           </div>
-          <div className='hidden sm:block mt-16 animate-bounce opacity-15'>
+
+          <motion.div
+            className='hidden sm:block mt-16 animate-bounce opacity-15'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 1.2 }}
+          >
             <RiScrollToBottomLine size={30} />
-          </div>
+          </motion.div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
