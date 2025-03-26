@@ -2,10 +2,11 @@ import React, { useRef, useState } from 'react';
 import { MdArrowOutward } from 'react-icons/md';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
+import Image from 'next/image';
 
-const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
-const serviceKey = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_KEY;
-const tempKey = process.env.NEXT_PUBLIC_EMAILJS_TEMP_KEY;
+const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ?? "";
+const serviceKey = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_KEY ?? "";
+const tempKey = process.env.NEXT_PUBLIC_EMAILJS_TEMP_KEY ?? "";
 
 const Contact = () => {
   const formRef = useRef<HTMLFormElement | null>(null);
@@ -77,7 +78,9 @@ const Contact = () => {
   return (
     <section id='contact' className='sm:px-10 my-20'>
       <div className='relative min-h-[calc(100vh)] flex items-center justify-center flex-col'>
-        <img
+        <Image
+        width={1000}
+        height={1000}
           src='/assets/terminal.png'
           alt='terminal background'
           className='absolute inset-0 min-h-screen hidden lg:block'

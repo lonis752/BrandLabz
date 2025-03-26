@@ -87,7 +87,7 @@ const Projects = () => {
           </div>
 
             <p className='animatedText'>{currentProject.desc}</p>
-            <p className='animatedText hidden md:block'>
+            <p className='animatedText hidden sm:block'>
               {currentProject.subdesc}
             </p>
           </div>
@@ -105,7 +105,7 @@ const Projects = () => {
             </div>
 
             <a
-              className='flex items-center gap-2 cursor-pointer text-white-600'
+              className='z-50 flex items-center gap-2 cursor-pointer text-white-600'
               href={currentProject.href}
               target='_blank'
               rel='noreferrer'
@@ -117,14 +117,14 @@ const Projects = () => {
 
           <div className='flex justify-between items-center'>
             <button
-              className='w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full arrow-gradient'
+              className='z-50 w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full arrow-gradient'
               onClick={() => handleNavigation('previous')}
             >
               <FaArrowLeft size={24} />
             </button>
 
             <button
-              className='w-10 h-10 cursor-pointer active:scale-95 transition-all rounded-full arrow-gradient'
+              className='z-50 w-10 h-10 cursor-pointer active:scale-95 transition-all rounded-full arrow-gradient'
               onClick={() => handleNavigation('next')}
             >
               <FaArrowRight size={24} />

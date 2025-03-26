@@ -21,17 +21,17 @@ const Footer = () => {
         <div className="flex gap-3">
           <div className="w-10 h-10 rounded-full flex justify-center items-center bg-black-300 border border-black-200">
             <a href="https://github.com/lonis752" target="_blank">
-              <img src="/git.svg" alt="Github Logo" className="" />
+              <Image width={27} height={27} src="/git.svg" alt="Github Logo" className="" />
             </a>
           </div>
           <div className="w-10 h-10 rounded-full flex justify-center items-center bg-black-300 border border-black-200">
             <a href="https://x.com/lonis_k" target="_blank">
-              <img src="/x.png" alt="X Logo" className="" />
+              <Image width={40} height={40} src="/x.png" alt="X Logo" className="" />
             </a>
           </div>
           <div className="w-10 h-10 rounded-full flex justify-center items-center bg-black-300 border border-black-200">
             <a href="https://www.linkedin.com/in/lonis-kwacke/" target="_blank">
-              <img src="/link.svg" alt="LinkedIn Logo" className="" />
+              <Image width={27} height={27} src="/link.svg" alt="LinkedIn Logo" className="" />
             </a>
           </div>
         </div>

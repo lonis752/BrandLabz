@@ -8,6 +8,7 @@ import {
 } from "motion/react";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import Image from "next/image";
 
 export const FloatingNav = ({
   navItems,
@@ -60,7 +61,7 @@ export const FloatingNav = ({
           className
         )}
       >
-        <img src="/lonis.png" alt="lonis's logo" className="w-20 hidden sm:block" />
+        <Image width={60} height={20} src="/lonis.png" alt="lonis's logo" className="hidden sm:block" />
         {navItems.map(
           (
             navItem: { name: string; link: string; icon: React.ReactNode },

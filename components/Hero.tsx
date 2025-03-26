@@ -1,7 +1,6 @@
 import { FaLocationArrow } from 'react-icons/fa6';
 import MagicButton from './ui/MagicButton';
 import { Spotlight } from './ui/Spotlight';
-import { TextGenerateEffect } from './ui/TextGenerateEffect';
 import { MdDownload } from 'react-icons/md';
 import { RiScrollToBottomLine } from 'react-icons/ri';
 
@@ -37,10 +36,10 @@ const Hero = () => {
             Driven By Creativity | Problem-Solver | Performance-Focused
           </p>
 
-          <TextGenerateEffect
-            className='text-center text-[40px] md:text-5xl lg:text-6xl py-10'
-            words='Building Creative Solutions for Beautiful Experiences.'
-          />
+          <h1 className='text-center font-extrabold text-[40px] md:text-5xl lg:text-6xl py-10'>
+            Building Creative Solutions for{' '}
+            <span className='text-purple'>Beautiful Experiences.</span>
+          </h1>
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
             Hi! I&apos;m Lonis, a Fullstack Developer based in Vancouver,
             Canada.

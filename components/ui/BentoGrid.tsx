@@ -9,6 +9,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import Model from '../Model';
 import Approach from '../Approach';
+import Image from 'next/image';
 
 /* const Lottie = dynamic(() => import("react-lottie"), { ssr: false }); */
 
@@ -75,7 +76,9 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && 'flex justify-center'} h-full`}>
         <div className='w-full h-full absolute'>
           {img && (
-            <img
+            <Image
+            width={20}
+            height={20}
               src={img}
               alt={img}
               className={cn(imgClassName, 'object-cover object-center ')}
@@ -88,7 +91,9 @@ export const BentoGridItem = ({
           } `}
         >
           {spareImg && (
-            <img
+            <Image
+            width={20}
+            height={20}
               src={spareImg}
               alt={spareImg}
               className='object-cover object-center w-full h-full'
@@ -138,7 +143,7 @@ export const BentoGridItem = ({
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
-                    className='lg:py-4 py-3 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    className='lg:py-4 py-3 lg:px-3 px-3 text-xs lg:text-base opacity-50 
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]'
                   >
                     {item}
@@ -151,7 +156,7 @@ export const BentoGridItem = ({
                 {rightLists.map((item, i) => (
                   <span
                     key={i}
-                    className='lg:py-4 py-3 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    className='lg:py-4 py-3 lg:px-3 px-3 text-xs lg:text-base opacity-50 
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]'
                   >
                     {item}
@@ -170,12 +175,16 @@ export const BentoGridItem = ({
                 <div className='flex gap-3 justify-center'>
                   <div className='w-10 h-10 rounded-full flex justify-center items-center bg-black-300 border border-black-200'>
                     <a href='https://github.com/lonis752' target='_blank'>
-                      <img src='/git.svg' alt='Github Logo' className='' />
+                      <Image
+            width={40}
+            height={40} src='/git.svg' alt='Github Logo' className='' />
                     </a>
                   </div>
                   <div className='w-10 h-10 rounded-full flex justify-center items-center bg-black-300 border border-black-200'>
                     <a href='https://x.com/lonis_k' target='_blank'>
-                      <img src='/x.png' alt='X Logo' className='' />
+                      <Image
+            width={40}
+            height={40} src='/x.png' alt='X Logo' className='' />
                     </a>
                   </div>
                   <div className='w-10 h-10 rounded-full flex justify-center items-center bg-black-300 border border-black-200'>
@@ -183,7 +192,9 @@ export const BentoGridItem = ({
                       href='https://www.linkedin.com/in/lonis-kwacke/'
                       target='_blank'
                     >
-                      <img src='/link.svg' alt='LinkedIn Logo' className='' />
+                      <Image
+            width={40}
+            height={40} src='/link.svg' alt='LinkedIn Logo' className='' />
                     </a>
                   </div>
                 </div>
