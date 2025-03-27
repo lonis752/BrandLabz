@@ -24,7 +24,6 @@ const Hero = () => {
         className='h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
        absolute top-0 left-0 flex items-center justify-center'
       >
-        {/* Radial gradient for the container to give a faded look */}
         <div
           className='absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]'
@@ -48,7 +47,7 @@ const Hero = () => {
           </motion.p>
 
           <motion.h1
-            className='text-center font-extrabold text-[40px] md:text-5xl lg:text-6xl py-20'
+            className='text-center font-extrabold text-[40px] sm:text-4xl md:text-5xl lg:text-6xl py-20'
             initial={{ opacity: 0 }}
             animate={{ opacity: 1.5 }}
             transition={{ duration: 1, delay: 0.6 }}
