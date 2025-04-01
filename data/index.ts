@@ -42,7 +42,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently Building a Multiplayer Battleship Game.",
+    title: "Currently Building a Battleship Game for My Son.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -65,9 +65,9 @@ export const gridItems = [
 export const myProjects = [
   {
     title: "Buyify - Next.js 15 eCommerce App",
-    desc: "Buyify is a next-generation eCommerce platform designed for a seamless and secure shopping experience. Built with Next.js 15, Tailwind CSS, and TypeScript, it offers a sleek, responsive interface. Framer Motion ensures smooth animations, while Clerk authentication and Stripe payments provide security and reliability. Zustand manages state efficiently, and Radix UI enhances accessibility for an intuitive user experience.",
+    desc: "Buyify is an eCommerce platform designed for a seamless and secure shopping experience. Built with Next.js 15, Tailwind CSS, and TypeScript, it offers a sleek, responsive interface. Framer Motion ensures smooth animations, while Clerk authentication and Stripe payments provide security and reliability. Zustand manages state efficiently, and Radix UI enhances accessibility for an intuitive user experience.",
     subdesc:
-      "Buyify is optimized with Lucide React, React Icons, and Tailwind Merge for a visually polished design. Axios handles API requests, while PostCSS and tw-animate-css refine styling. With fast performance and seamless interactions, Buyify makes online shopping effortless and engaging.",
+      "Axios handles API requests, while PostCSS and tw-animate-css refine styling. With fast performance and seamless interactions, Buyify makes online shopping effortless and engaging.",
     href: "https://buyify.vercel.app",
     texture: "/projectVideos/buyify.mp4",
     logo: "/assets/buyify.png",
@@ -104,7 +104,7 @@ export const myProjects = [
     title: "CacaoTalk - Real-Time Chat app",
     desc: "CacaoTalk is a real-time chat app inspired by KakaoTalk, built for fast, secure, and seamless communication. Powered by React, Socket.io, and Zustand, it delivers instant messaging with real-time updates. Axios ensures smooth data fetching, while Cloudinary enables effortless media sharing. Secure authentication is handled via bcryptjs, JWT, and cookie-parser for a safe and reliable experience.",
     subdesc:
-      "CacaoTalk enhances the user experience with React Router, Lucide React icons, and DaisyUI for a sleek interface. Optimized with Vite, Tailwind CSS, and PostCSS, it ensures fast performance and a responsive design for effortless communication.",
+      "CacaoTalk enhances the user experience with React Router, Lucide React icons, and DaisyUI for a sleek interface. Optimized with Vite, and Tailwind CSS, it ensures fast performance and a responsive design for effortless communication.",
     href: "https://chat-app-kq6u.onrender.com",
     texture: "/projectVideos/cacaotalk.mp4",
     logo: "/assets/ctLogo.png",
@@ -139,9 +139,9 @@ export const myProjects = [
   },
   {
     title: "WriteMe - Markdown Generator for projects",
-    desc: "WriteMe automates README.md creation for GitHub projects with AI-powered efficiency. Built with Next.js 15, OpenAI, and Clerk authentication, it offers secure access and seamless generation. Framer Motion ensures smooth animations, while React Simple Typewriter enhances real-time text effects. Tailwind CSS, Radix UI, and Lucide React create a polished interface for effortless documentation.",
+    desc: "WriteMe automates README.md creation for GitHub projects with AI-powered efficiency. Built with Next.js 15, OpenAI, and Clerk authentication, it offers secure access and seamless generation. Framer Motion ensures smooth animations. Tailwind CSS create a polished interface for effortless documentation.",
     subdesc:
-      "WriteMe integrates Tailwind Merge and tw-animate-css for refined styling and animations. Optimized with Class Variance Authority and Clsx, it maintains consistent design. ESLint and TypeScript enhance code quality, ensuring a smooth, dynamic experience for developers.",
+      "Optimized with Class Variance Authority and Clsx, it maintains consistent design. ESLint and TypeScript enhance code quality, ensuring a smooth, dynamic experience for developers.",
     href: "https://writeme-2r5e.onrender.com/",
     texture: "/projectVideos/writeme.mp4",
     logo: "/assets/wmLogo.png",
@@ -180,7 +180,7 @@ export const myProjects = [
     title: "Spendable - Helper to rethink purchases",
     desc: "Spendable is an intuitive budgeting tool designed to help you make smarter financial decisions. Built with Next.js 15, React, and TypeScript, it delivers a smooth and responsive experience. Framer Motion adds fluid animations, while Shadcn and Lucide React ensure an accessible and visually polished interface making Spendable both useful and efficient.",
     subdesc:
-      "Spendable transforms prices into work hours for better financial insight. React Icons and tw-animate-css bring dynamic visual appeal, while Class Variance Authority keeps the UI flexible and maintainable. With a fast, intuitive design, Spendable empowers users to budget effectively and make informed spending choices.",
+      "Spendable transforms prices into work hours for better financial insight. With a fast, intuitive design, Spendable empowers users to budget effectively and make informed spending choices.",
     href: "https://spendable-roan.vercel.app/",
     texture: "/projectVideos/spendable.mp4",
     logo: "/assets/sLogo.png",
