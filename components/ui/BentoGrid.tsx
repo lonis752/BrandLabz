@@ -8,7 +8,6 @@ import { IoCopyOutline } from 'react-icons/io5';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import Model from '../Model';
-import Approach from '../Approach';
 import Image from 'next/image';
 
 export const BentoGrid = ({
@@ -75,8 +74,8 @@ export const BentoGridItem = ({
         <div className='w-full h-full absolute'>
           {img && (
             <Image
-            width={20}
-            height={20}
+              width={200}
+              height={20}
               src={img}
               alt={img}
               className={cn(imgClassName, 'object-cover object-center ')}
@@ -90,8 +89,8 @@ export const BentoGridItem = ({
         >
           {spareImg && (
             <Image
-            width={20}
-            height={20}
+              width={20}
+              height={20}
               src={spareImg}
               alt={spareImg}
               className='object-cover object-center w-full h-full'
@@ -101,21 +100,23 @@ export const BentoGridItem = ({
         {id === 6 && (
           <BackgroundGradientAnimation></BackgroundGradientAnimation>
         )}
-        {id === 1 && (
+        {/* {id === 1 && (
           <>
             <div className=''>
               <Approach />
             </div>
           </>
-        )}
+        )} */}
         {id === 2 && (
-          <div className='w-full absolute lg:top-1/3 border-b rounded-2xl  z-50'>
+          <div className='w-full absolute lg:top-1/3 border-b rounded-2xl z-50'>
             <Canvas camera={{ position: [0, 0, 10], fov: 50 }}>
               <ambientLight intensity={7} />
               <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
               <directionalLight position={[10, 10, 10]} intensity={1} />
               <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
-              <Model position-y={-18.2} scale={11.2} animationName='wave' />
+              
+                <Model position-y={-18.2} scale={11.2} animationName='wave' />
+              
             </Canvas>
           </div>
         )}
@@ -174,15 +175,23 @@ export const BentoGridItem = ({
                   <div className='w-10 h-10 rounded-full flex justify-center items-center bg-black-300 border border-black-200'>
                     <a href='https://github.com/lonis752' target='_blank'>
                       <Image
-            width={30}
-            height={30} src='/git.svg' alt='Github Logo' className='' />
+                        width={30}
+                        height={30}
+                        src='/git.svg'
+                        alt='Github Logo'
+                        className=''
+                      />
                     </a>
                   </div>
                   <div className='w-10 h-10 rounded-full flex justify-center items-center bg-black-300 border border-black-200'>
                     <a href='https://x.com/lonis_k' target='_blank'>
                       <Image
-            width={50}
-            height={50} src='/x.png' alt='X Logo' className='' />
+                        width={50}
+                        height={50}
+                        src='/x.png'
+                        alt='X Logo'
+                        className=''
+                      />
                     </a>
                   </div>
                   <div className='w-10 h-10 rounded-full flex justify-center items-center bg-black-300 border border-black-200'>
@@ -191,8 +200,12 @@ export const BentoGridItem = ({
                       target='_blank'
                     >
                       <Image
-            width={25}
-            height={25} src='/link.svg' alt='LinkedIn Logo' className='' />
+                        width={25}
+                        height={25}
+                        src='/link.svg'
+                        alt='LinkedIn Logo'
+                        className=''
+                      />
                     </a>
                   </div>
                 </div>

@@ -1,12 +1,12 @@
 export const gridItems = [
   {
     id: 1,
-    title: "",
+    title: "About Me",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "",
+    img: "/b1.jpeg",
     spareImg: "",
   },
   {
@@ -64,13 +64,13 @@ export const gridItems = [
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "CacaoTalk is a cutting-edge real-time chat application that redefines online communication. Inspired by KakaoTalk, it offers seamless messaging, secure login authentication, and effortless photo sharing. With a sleek and intuitive interface, CacaoTalk ensures fast, reliable, and engaging conversations—anytime, anywhere.",
+    title: "Buyify - Next.js 15 eCommerce App",
+    desc: "Buyify is an eCommerce platform that makes online shopping visually pleasing. Powered by Stripe and Clerk, it ensures secure payments and seamless authentication. With smooth animations and an intuitive design, Buyify delivers a fast, reliable, and engaging shopping experience—making every purchase effortless and enjoyable.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
-    texture: "/projectVideos/project1.mp4",
-    logo: "/assets/project-logo1.png",
+      "Powered by Next.js 15, Tailwind CSS, TypeScript, Framer Motion, and Stripe, Buyify offers secure authentication, smooth animations, and a fast, reliable shopping experience with seamless purchases.",
+    href: "https://buyify.vercel.app",
+    texture: "/projectVideos/buyify.mp4",
+    logo: "/assets/buyify.png",
     logoStyle: {
       backgroundColor: "#2A1816",
       border: "0.2px solid #36201D",
@@ -106,7 +106,7 @@ export const myProjects = [
     subdesc:
       "Stay connected with CacaoTalk’s seamless messaging, secure authentication, and easy media sharing. Enjoy real-time chats with a smooth and intuitive experience built for effortless communication.",
     href: "https://chat-app-kq6u.onrender.com",
-    texture: "/projectVideos/project2.mp4",
+    texture: "/projectVideos/cacaotalk.mp4",
     logo: "/assets/ctLogo.png",
     logoStyle: {
       backgroundColor: "#13202F",
@@ -143,7 +143,7 @@ export const myProjects = [
     subdesc:
       "Simplify your project documentation with WriteMe. Log in, add your GitHub repo link, and get a clean, professional README template—fast and hassle-free.",
     href: "https://writeme-2r5e.onrender.com/",
-    texture: "/projectVideos/project3.mp4",
+    texture: "/projectVideos/writeme.mp4",
     logo: "/assets/wmLogo.png",
     logoStyle: {
       backgroundColor: "#60f5a1",
@@ -182,7 +182,7 @@ export const myProjects = [
     subdesc:
       "Know the true cost of your purchases in work hours. With Spendable, just input your hourly wage and the item’s price to see how much time it takes to earn it—helping you spend wisely.",
     href: "https://spendable-roan.vercel.app/",
-    texture: "/projectVideos/project4.mp4",
+    texture: "/projectVideos/spendable.mp4",
     logo: "/assets/sLogo.png",
     logoStyle: {
       backgroundColor: "#0E1F38",
@@ -325,7 +325,7 @@ export const workExperience = [
     pos: "Fullstack Developer",
     duration: "2024 - Present",
     title:
-      "Focused on expanding my knowledge in web development, including Express, Next.js, GraphQL, SQL/NoSQL, and TypeScript. Built personal projects to refine skills, solve problems, and stay current with industry trends.",
+      "Focused on expanding my knowledge in web development, including Express, Next.js, TypeScript, SQL/NoSQL, and more fundamentals. Built personal projects to refine skills, solve problems, and stay current with industry trends.",
     icon: "/e1.png",
     animation: "victory",
   },

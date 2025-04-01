@@ -43,7 +43,7 @@ const Projects = () => {
       <p className='font-bold text-4xl md:text-5xl'>
         Featured <span className='text-purple'>Projects</span>
       </p>
-      <div className='flex flex-col sm:flex-row mt-6 sm:mt-12 gap-5'>
+      <div className='flex flex-col sm:flex-row mt-6 sm:mt-12 gap-5 h-full'>
         <div className='w-full h-full sm:w-1/2 sm:h-1/2 flex flex-col gap-3 sm:gap-5 relative sm:p-10 py-5 sm:py-10 px-5 shadow-2xl shadow-black-200'>
           <div className='absolute top-0 right-0'>
             <img

@@ -81,8 +81,8 @@ const Hero = () => {
             </motion.a>
 
             <motion.a
-              href='/Lonis_Kwacke_Resume_2025.pdf'
-              download='Lonis_Kwacke_Resume_2025.pdf'
+              href='/Lonis_Kwacke.pdf'
+              download='Lonis_Kwacke.pdf'
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 1 }}

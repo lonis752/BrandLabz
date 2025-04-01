@@ -4,9 +4,9 @@ import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
 import Image from 'next/image';
 
-const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ?? "";
-const serviceKey = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_KEY ?? "";
-const tempKey = process.env.NEXT_PUBLIC_EMAILJS_TEMP_KEY ?? "";
+const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ?? '';
+const serviceKey = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_KEY ?? '';
+const tempKey = process.env.NEXT_PUBLIC_EMAILJS_TEMP_KEY ?? '';
 
 const Contact = () => {
   const formRef = useRef<HTMLFormElement | null>(null);
@@ -79,11 +79,11 @@ const Contact = () => {
     <section id='contact' className='sm:px-10 my-20'>
       <div className='relative min-h-[calc(100vh)] flex items-center justify-center flex-col'>
         <Image
-        width={1000}
-        height={1000}
+          width={1000}
+          height={1000}
           src='/assets/terminal.png'
           alt='terminal background'
-          className='absolute inset-0 min-h-screen hidden lg:block'
+          className='absolute min-h-screen hidden lg:block'
         />
         <div className='max-w-xl relative z-10 sm:px-10 px-5 sm:mt-12'>
           <h3 className='sm:text-4xl text-3xl font-semibold text-gray_gradient'>
