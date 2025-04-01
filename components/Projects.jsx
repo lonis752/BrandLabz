@@ -44,7 +44,7 @@ const Projects = () => {
         Featured <span className='text-purple'>Projects</span>
       </p>
       <div className='flex flex-col sm:flex-row mt-6 sm:mt-12 gap-5 h-full'>
-        <div className='w-full h-full sm:w-1/2 sm:h-1/2 flex flex-col gap-3 sm:gap-5 relative sm:p-10 py-5 sm:py-10 px-5 shadow-2xl shadow-black-200'>
+        <div className='w-full fixed-height sm:w-1/2 sm:h-1/2 flex flex-col gap-3 sm:gap-5 relative sm:p-10 py-5 sm:py-10 px-5 shadow-2xl shadow-black-200'>
           <div className='absolute top-0 right-0'>
             <img
               src={currentProject.spotlight}
@@ -68,24 +68,24 @@ const Projects = () => {
             <p className='text-white text-2xl font-semibold animatedText'>
               {currentProject.title}
             </p>
-          <div className='sm:hidden'>
-            <Canvas>
-              <ambientLight intensity={Math.PI} />
-              <directionalLight position={[10, 10, 5]} />
-              <Center>
-                <Suspense fallback={<CanvasLoader />}>
-                  <group
-                    scale={4}
-                    position={[-0.5, -7.2, 0]}
-                    rotation={[0, 0, 0]}
-                  >
-                    <DemoComputer texture={currentProject.texture} />
-                  </group>
-                </Suspense>
-              </Center>
-              <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
-            </Canvas>
-          </div>
+            <div className='sm:hidden'>
+              <Canvas>
+                <ambientLight intensity={Math.PI} />
+                <directionalLight position={[10, 10, 5]} />
+                <Center>
+                  <Suspense fallback={<CanvasLoader />}>
+                    <group
+                      scale={4}
+                      position={[-0.5, -7.2, 0]}
+                      rotation={[0, 0, 0]}
+                    >
+                      <DemoComputer texture={currentProject.texture} />
+                    </group>
+                  </Suspense>
+                </Center>
+                <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
+              </Canvas>
+            </div>
 
             <p className='animatedText'>{currentProject.desc}</p>
             <p className='animatedText hidden sm:block'>
@@ -94,13 +94,13 @@ const Projects = () => {
           </div>
 
           <div className='flex items-center justify-between flex-wrap gap-5'>
-            <div className='flex items-center gap-3'>
+            <div className='flex items-center justify-between gap-5 mt-2'>
               {currentProject.tags.map((tag, index) => (
-                <div
-                  key={index}
-                  className='w-10 h-10 rounded-md p-2 bg-neutral-100 bg-opacity-10 backdrop-filter backdrop-blur-lg flex justify-center items-center'
-                >
-                  <img src={tag.path} alt={tag.name} />
+                <div key={index} className='flex flex-col items-center max-w-5'>
+                  <div className='gap-2 w-10 h-10 rounded-md p-2 bg-neutral-100 bg-opacity-10 backdrop-filter backdrop-blur-lg flex justify-center items-center'>
+                    <img src={tag.path} alt={tag.name} />
+                  </div>
+                  <p className='text-xs'>{tag.name}</p>
                 </div>
               ))}
             </div>

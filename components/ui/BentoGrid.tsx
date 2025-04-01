@@ -100,24 +100,30 @@ export const BentoGridItem = ({
         {id === 6 && (
           <BackgroundGradientAnimation></BackgroundGradientAnimation>
         )}
-        {/* {id === 1 && (
-          <>
-            <div className=''>
-              <Approach />
-            </div>
-          </>
-        )} */}
-        {id === 2 && (
-          <div className='w-full absolute lg:top-1/3 border-b rounded-2xl z-50'>
+        {id === 1 && (
+          <div className='w-full h-full absolute lg:top-1/5 border-b rounded-2xl z-50'>
             <Canvas camera={{ position: [0, 0, 10], fov: 50 }}>
               <ambientLight intensity={7} />
               <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
               <directionalLight position={[10, 10, 10]} intensity={1} />
               <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
-              
-                <Model position-y={-18.2} scale={11.2} animationName='wave' />
-              
+
+              <Model position-y={-14} scale={9} animationName='waving' />
             </Canvas>
+          </div>
+        )}
+        {id === 2 && (
+          <div>
+            <div className='w-full absolute lg:top-1/3 border-b rounded-2xl z-50'>
+              <Image
+                width={200}
+                height={200}
+                src='/globe.png'
+                alt='bento'
+                className='object-cover object-center w-full h-full'
+              />
+            </div>
+            <BackgroundGradientAnimation></BackgroundGradientAnimation>
           </div>
         )}
 

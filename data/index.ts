@@ -65,9 +65,9 @@ export const gridItems = [
 export const myProjects = [
   {
     title: "Buyify - Next.js 15 eCommerce App",
-    desc: "Buyify is an eCommerce platform that makes online shopping visually pleasing. Powered by Stripe and Clerk, it ensures secure payments and seamless authentication. With smooth animations and an intuitive design, Buyify delivers a fast, reliable, and engaging shopping experience—making every purchase effortless and enjoyable.",
+    desc: "Buyify is a next-generation eCommerce platform designed for a seamless and secure shopping experience. Built with Next.js 15, Tailwind CSS, and TypeScript, it offers a sleek, responsive interface. Framer Motion ensures smooth animations, while Clerk authentication and Stripe payments provide security and reliability. Zustand manages state efficiently, and Radix UI enhances accessibility for an intuitive user experience.",
     subdesc:
-      "Powered by Next.js 15, Tailwind CSS, TypeScript, Framer Motion, and Stripe, Buyify offers secure authentication, smooth animations, and a fast, reliable shopping experience with seamless purchases.",
+      "Buyify is optimized with Lucide React, React Icons, and Tailwind Merge for a visually polished design. Axios handles API requests, while PostCSS and tw-animate-css refine styling. With fast performance and seamless interactions, Buyify makes online shopping effortless and engaging.",
     href: "https://buyify.vercel.app",
     texture: "/projectVideos/buyify.mp4",
     logo: "/assets/buyify.png",
@@ -85,8 +85,8 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "/tail.svg",
+        name: "Stripe",
+        path: "/stripe.svg",
       },
       {
         id: 3,
@@ -95,16 +95,16 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/fm.svg",
+        name: "Clerk",
+        path: "/clerk.svg",
       },
     ],
   },
   {
     title: "CacaoTalk - Real-Time Chat app",
-    desc: "CacaoTalk is a real-time chat app inspired by KakaoTalk, designed for fast and secure communication. With seamless login authentication, instant messaging, and effortless photo sharing, it keeps you connected anytime, anywhere.",
+    desc: "CacaoTalk is a real-time chat app inspired by KakaoTalk, built for fast, secure, and seamless communication. Powered by React, Socket.io, and Zustand, it delivers instant messaging with real-time updates. Axios ensures smooth data fetching, while Cloudinary enables effortless media sharing. Secure authentication is handled via bcryptjs, JWT, and cookie-parser for a safe and reliable experience.",
     subdesc:
-      "Stay connected with CacaoTalk’s seamless messaging, secure authentication, and easy media sharing. Enjoy real-time chats with a smooth and intuitive experience built for effortless communication.",
+      "CacaoTalk enhances the user experience with React Router, Lucide React icons, and DaisyUI for a sleek interface. Optimized with Vite, Tailwind CSS, and PostCSS, it ensures fast performance and a responsive design for effortless communication.",
     href: "https://chat-app-kq6u.onrender.com",
     texture: "/projectVideos/cacaotalk.mp4",
     logo: "/assets/ctLogo.png",
@@ -122,26 +122,26 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "TailwindCSS",
+        name: "Tailwind",
         path: "/tail.svg",
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/ts.svg",
+        name: "JavaScript",
+        path: "/js.svg",
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/fm.svg",
+        name: "Express",
+        path: "/express.svg",
       },
     ],
   },
   {
     title: "WriteMe - Markdown Generator for projects",
-    desc: "WriteMe is a smart tool that automates README.md creation for GitHub repositories and projects. Just enter your repo link, and it generates a structured Markdown framework instantly for you to modify and push. With secure login and a one-use-per-day limit, WriteMe makes documentation effortless.",
+    desc: "WriteMe automates README.md creation for GitHub projects with AI-powered efficiency. Built with Next.js 15, OpenAI, and Clerk authentication, it offers secure access and seamless generation. Framer Motion ensures smooth animations, while React Simple Typewriter enhances real-time text effects. Tailwind CSS, Radix UI, and Lucide React create a polished interface for effortless documentation.",
     subdesc:
-      "Simplify your project documentation with WriteMe. Log in, add your GitHub repo link, and get a clean, professional README template—fast and hassle-free.",
+      "WriteMe integrates Tailwind Merge and tw-animate-css for refined styling and animations. Optimized with Class Variance Authority and Clsx, it maintains consistent design. ESLint and TypeScript enhance code quality, ensuring a smooth, dynamic experience for developers.",
     href: "https://writeme-2r5e.onrender.com/",
     texture: "/projectVideos/writeme.mp4",
     logo: "/assets/wmLogo.png",
@@ -161,7 +161,7 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "TailwindCSS",
+        name: "Tailwind",
         path: "/tail.svg",
       },
       {
@@ -171,16 +171,16 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/fm.svg",
+        name: "Clerk",
+        path: "/clerk.svg",
       },
     ],
   },
   {
-    title: "Spendable - Helps to rethink your next purchase",
-    desc: "Spendable is a simple yet powerful budgeting tool that helps you make smarter spending decisions. Enter your hourly wage and the price of a product, and Spendable instantly calculates how many hours you need to work to afford it.",
+    title: "Spendable - Helper to rethink purchases",
+    desc: "Spendable is an intuitive budgeting tool designed to help you make smarter financial decisions. Built with Next.js 15, React, and TypeScript, it delivers a smooth and responsive experience. Framer Motion adds fluid animations, while Shadcn and Lucide React ensure an accessible and visually polished interface making Spendable both useful and efficient.",
     subdesc:
-      "Know the true cost of your purchases in work hours. With Spendable, just input your hourly wage and the item’s price to see how much time it takes to earn it—helping you spend wisely.",
+      "Spendable transforms prices into work hours for better financial insight. React Icons and tw-animate-css bring dynamic visual appeal, while Class Variance Authority keeps the UI flexible and maintainable. With a fast, intuitive design, Spendable empowers users to budget effectively and make informed spending choices.",
     href: "https://spendable-roan.vercel.app/",
     texture: "/projectVideos/spendable.mp4",
     logo: "/assets/sLogo.png",
@@ -198,7 +198,7 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "TailwindCSS",
+        name: "Tailwind",
         path: "/tail.svg",
       },
       {
@@ -215,9 +215,9 @@ export const myProjects = [
   },
   {
     title: "Coming Soon...",
-    desc: "I'm constantly expanding my coding and programming skills, always exploring new technologies and improving my craft. With exciting projects always in the pipeline, there's always something innovative on the way.",
+    desc: "I dedicate time to expanding my knowledge and refining my skills, always striving to stay ahead in the ever-evolving tech landscape. Whether mastering new frameworks, deepening my understanding of front-end and back-end development, or exploring emerging trends, I believe growth comes from continuous learning.",
     subdesc:
-      "Driven by continuous learning, I explore new coding technologies and push my skills further. With fresh projects always in development, there’s always something exciting on the horizon.",
+      "Through hands-on projects, online courses, and industry research, I push my abilities further, ensuring I deliver high-quality work. This commitment to improvement not only enhances my expertise but also allows me to bring fresh, innovative solutions to the projects I create and the teams I work with.",
     href: "https://github.com/lonis752",
     texture: "/projectVideos/404.mp4",
     logo: "/assets/soon.png",
@@ -235,8 +235,8 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "/tail.svg",
+        name: "GraphQL",
+        path: "/graphql.svg",
       },
       {
         id: 3,
@@ -245,8 +245,8 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/fm.svg",
+        name: "Three.js",
+        path: "/three.svg",
       },
     ],
   },
@@ -337,7 +337,7 @@ export const workExperience = [
     title:
       "Built and managed SEO-driven blogs and artist portfolios, optimizing content and handling full-stack development for performance, aesthetics, and UX.",
     icon: "/lonis.png",
-    animation: "waving",
+    animation: "wave",
   },
   {
     id: 3,
