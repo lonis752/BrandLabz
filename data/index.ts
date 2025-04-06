@@ -65,9 +65,9 @@ export const gridItems = [
 export const myProjects = [
   {
     title: "Buyify - Next.js 15 eCommerce App",
-    desc: "Buyify is an eCommerce platform designed for a seamless and secure shopping experience. Built with Next.js 15, Tailwind CSS, and TypeScript, it offers a sleek, responsive interface. Framer Motion ensures smooth animations, while Clerk authentication and Stripe payments provide security and reliability. Zustand manages state efficiently, and Radix UI enhances accessibility for an intuitive user experience.",
+    desc: "Buyify is an eCommerce platform designed for a seamless and secure shopping experience. Built with Next.js 15, Tailwind CSS, and TypeScript, it offers a sleek, responsive interface. Framer Motion ensures smooth animations, while Clerk authentication and Stripe payments provide security and reliability. Using Zustand to manages state efficiently.",
     subdesc:
-      "Axios handles API requests, while PostCSS and tw-animate-css refine styling. With fast performance and seamless interactions, Buyify makes online shopping effortless and engaging.",
+      "Simple and seamless eCommerce platform for anyone to start selling their products. Working with axio for api calls to stripe with easy to update products list and analytics.",
     href: "https://buyify.vercel.app",
     texture: "/projectVideos/buyify.mp4",
     logo: "/assets/buyify.png",
@@ -101,10 +101,10 @@ export const myProjects = [
     ],
   },
   {
-    title: "CacaoTalk - Real-Time Chat app",
-    desc: "CacaoTalk is a real-time chat app inspired by KakaoTalk, built for fast, secure, and seamless communication. Powered by React, Socket.io, and Zustand, it delivers instant messaging with real-time updates. Axios ensures smooth data fetching, while Cloudinary enables effortless media sharing. Secure authentication is handled via bcryptjs, JWT, and cookie-parser for a safe and reliable experience.",
+    title: "CacaoTalk - Real-Time Chat App",
+    desc: "CacaoTalk is a real-time chat app inspired by KakaoTalk, built for fast, secure, and seamless communication. Powered by React, Socket.io, and Zustand, it delivers instant messaging with real-time updates. Secure authentication is handled via bcryptjs, JWT, and cookie-parser for a safe and reliable experience.",
     subdesc:
-      "CacaoTalk enhances the user experience with React Router, Lucide React icons, and DaisyUI for a sleek interface. Optimized with Vite, and Tailwind CSS, it ensures fast performance and a responsive design for effortless communication.",
+      "CacaoTalk enhances the user experience with React Router, Using Cloudinary enables effortless media sharing and Mongodb for efficient data management.",
     href: "https://chat-app-kq6u.onrender.com",
     texture: "/projectVideos/cacaotalk.mp4",
     logo: "/assets/ctLogo.png",
@@ -138,10 +138,10 @@ export const myProjects = [
     ],
   },
   {
-    title: "WriteMe - Markdown Generator for projects",
-    desc: "WriteMe automates README.md creation for GitHub projects with AI-powered efficiency. Built with Next.js 15, OpenAI, and Clerk authentication, it offers secure access and seamless generation. Framer Motion ensures smooth animations. Tailwind CSS create a polished interface for effortless documentation.",
+    title: "WriteMe - Markdown Generator",
+    desc: "WriteMe automates README.md creation for GitHub projects with AI-powered efficiency. Built with Next.js 15, OpenAI, and Clerk authentication, it offers secure access and seamless generation. Users have limited tokens for generating their markdown.",
     subdesc:
-      "Optimized with Class Variance Authority and Clsx, it maintains consistent design. ESLint and TypeScript enhance code quality, ensuring a smooth, dynamic experience for developers.",
+      "Tailwind CSS create a polished interface for effortless documentation. Don't spend your valued time structuring your next README.md file and get generating today.",
     href: "https://writeme-2r5e.onrender.com/",
     texture: "/projectVideos/writeme.mp4",
     logo: "/assets/wmLogo.png",
@@ -178,7 +178,7 @@ export const myProjects = [
   },
   {
     title: "Spendable - Helper to rethink purchases",
-    desc: "Spendable is an intuitive budgeting tool designed to help you make smarter financial decisions. Built with Next.js 15, React, and TypeScript, it delivers a smooth and responsive experience. Framer Motion adds fluid animations, while Shadcn and Lucide React ensure an accessible and visually polished interface making Spendable both useful and efficient.",
+    desc: "Spendable is an intuitive budgeting tool designed to help you make smarter financial decisions. Built with Next.js 15, React, and TypeScript, it delivers a smooth and responsive experience. Framer Motion adds fluid animations, while Shadcn ensure an accessible and visually polished interface making Spendable both useful and efficient.",
     subdesc:
       "Spendable transforms prices into work hours for better financial insight. With a fast, intuitive design, Spendable empowers users to budget effectively and make informed spending choices.",
     href: "https://spendable-roan.vercel.app/",
@@ -325,7 +325,7 @@ export const workExperience = [
     pos: "Fullstack Developer",
     duration: "2024 - Present",
     title:
-      "Focused on expanding my knowledge in web development, including Express, Next.js, TypeScript, SQL/NoSQL, and more fundamentals. Built personal projects to refine skills, solve problems, and stay current with industry trends.",
+      "Focused on expanding my knowledge, including Express, Next.js, TypeScript, SQL/NoSQL databases, and more fundamentals languages, frameworks and libraries. Built personal projects to refine skills, solve problems, and stay current with industry trends.",
     icon: "/e1.png",
     animation: "victory",
   },
@@ -335,7 +335,7 @@ export const workExperience = [
     pos: "Fullstack Developer",
     duration: "2021 - Present",
     title:
-      "Built and managed SEO-driven blogs and artist portfolios, optimizing content and handling full-stack development for performance, aesthetics, and UX.",
+      "Built and managed SEO-driven blogs and artist portfolios, handling full-stack development while focusing on technical SEO, site speed optimization and keyword-rich content strategies to improve search engine visibility and organic traffic growth.",
     icon: "/lonis.png",
     animation: "wave",
   },
@@ -345,7 +345,7 @@ export const workExperience = [
     pos: "Lead Frontend Developer",
     duration: "2019 - 2021",
     title:
-      "As a founding member, I built high-performance websites for global businesses, optimizing UI/UX, modern frontend tech, and conversion-focused design to drive growth.",
+      "At BPMH mainly using WordPress I built conversion focued websites for global businesses, optimizing UI/UX, and conversion-focused design to drive growth. Working with businesses in Japan, New Zealand and Canada.",
     icon: "/bpmh.png",
     animation: "salute",
   },

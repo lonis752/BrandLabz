@@ -49,8 +49,8 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   // For changes to the 3rd box tech stack.
-  const leftLists = ['ReactJS', 'Express', 'JavaScript'];
-  const rightLists = ['PostgreSQL', 'NextJS', 'TailwindCSS'];
+  const leftLists = ['React', 'Express', 'JavaScript'];
+  const rightLists = ['PostgreSQL', 'Next.js', 'Tailwind'];
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
@@ -61,7 +61,7 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        'row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4',
+        'row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4',
         className
       )}
       style={{
@@ -143,8 +143,8 @@ export const BentoGridItem = ({
           </div>
 
           {id === 3 && (
-            <div className='flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2'>
-              <div className='flex flex-col gap-3 md:gap-3 lg:gap-8'>
+            <div className='flex gap-1 lg:gap-4 w-fit absolute -top-3 -right-3 lg:-right-2'>
+              <div className='flex flex-col gap-3 md:gap-3 lg:gap-5'>
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
@@ -156,7 +156,7 @@ export const BentoGridItem = ({
                 ))}
                 <span className='lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]'></span>
               </div>
-              <div className='flex flex-col gap-3 md:gap-3 lg:gap-8'>
+              <div className='flex flex-col gap-3 md:gap-3 lg:gap-5'>
                 <span className='lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]'></span>
                 {rightLists.map((item, i) => (
                   <span
