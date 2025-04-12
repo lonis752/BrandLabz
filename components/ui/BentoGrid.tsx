@@ -50,7 +50,7 @@ export const BentoGridItem = ({
 }) => {
   // For changes to the 3rd box tech stack.
   const leftLists = ['React', 'Express', 'JavaScript'];
-  const rightLists = ['PostgreSQL', 'Next.js', 'Tailwind'];
+  const rightLists = ['MongoDB', 'Next.js', 'Tailwind'];
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
