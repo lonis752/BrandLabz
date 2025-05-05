@@ -5,7 +5,7 @@ import { CanvasRevealEffect } from "./ui/CanvasReveal";
 
 const Services = () => {
   return (
-    <section className="w-full pb-10" id="services">
+    <section className="w-full pt-10 pb-10" id="services">
       <h1 className="heading">
         My <span className="text-purple">Services</span>
       </h1>
