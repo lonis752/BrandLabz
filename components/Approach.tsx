@@ -6,7 +6,7 @@ import { CanvasRevealEffect } from './ui/CanvasReveal';
 const Approach = () => {
   return (
     <section
-      className='absolute md:flex md:top-6 lg:top-0 lg:flex-col lg:items-start md:items-center'
+      className='md:flex md:top-6 lg:top-0 lg:flex-col lg:items-start md:items-center'
       id='approach'
     >
       <h3 className='font-bold text-xl md:text-2xl my-2 px-5'>

@@ -8,11 +8,13 @@ import { FloatingNav } from '@/components/ui/FloatingNav';
 import { FaHome } from 'react-icons/fa';
 import { IoMdPerson } from 'react-icons/io';
 import { FaFolder } from 'react-icons/fa';
-import { MdEmail } from 'react-icons/md';
+import { MdEmail, MdOutlineRateReview } from 'react-icons/md';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
-/* import Approach from '@/components/Approach';
-import Services from '@/components/Services'; */
+import Approach from '@/components/Approach';
+import Clients from '@/components/Clients';
+import Services from '@/components/Services';
+import { GoCodeSquare } from 'react-icons/go';
 
 export default function Home() {
   return (
@@ -23,22 +25,22 @@ export default function Home() {
             { name: 'Home', link: '/', icon: <FaHome /> },
             { name: 'About', link: '#about', icon: <IoMdPerson /> },
             { name: 'Projects', link: '#projects', icon: <FaFolder /> },
-            /* {
+            {
               name: "Testimonials",
               link: "#testimonials",
               icon: <MdOutlineRateReview />,
             },
-            { name: "Services", link: "#services", icon: <GoCodeSquare /> }, */
+            { name: "Services", link: "#services", icon: <GoCodeSquare /> },
             { name: 'Contact', link: '#contact', icon: <MdEmail /> },
           ]}
         />
         <Hero />
         <Grid />
         <Projects />
-        {/* <Approach /> */}
+        <Approach />
         <Experience />
-        {/* <Clients /> */}
-        {/* <Services /> */}
+        <Clients />
+        <Services />
         <Contact />
         <Footer />
       </div>

@@ -52,8 +52,8 @@ const Hero = () => {
             animate={{ opacity: 1.5 }}
             transition={{ duration: 1, delay: 0.6 }}
           >
-            Building Creative Solutions for{' '}
-            <span className='text-purple'>Beautiful Experiences.</span>
+            Driving Consumer&apos;s Decision{' '}
+            <span className='text-purple'>By Empowering Your Brand&apos;s Influence</span>
           </motion.h1>
 
           <motion.p
